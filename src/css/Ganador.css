@@ -1,0 +1,13 @@
+.ganador{
+    background-color: yellowgreen;
+    height: 100vh;
+    text-align: center;
+    padding-top: 10rem;
+}
+
+.etiquetaGanador{
+    color: blueviolet;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

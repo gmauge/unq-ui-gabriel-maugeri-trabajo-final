@@ -1,0 +1,92 @@
+.panelSuperior{
+    background-color: orange;
+    padding: 10px 10px 10px 0px;
+}
+
+.boton{
+    margin-right: 10px;
+    width: 70px;
+    height: 40px;
+    font-weight: bold;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;
+    transition-duration: 0.4s;
+    opacity: 0.85;
+  }
+ 
+.botonJugador{
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    font-weight: bold;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;
+    transition-duration: 0.4s;
+    opacity: 0.85;
+    background-color: grey;
+  }
+
+  .reiniciar{
+      width: 100px;
+      color:white;
+      background-color: black;
+
+  }
+
+.boton:hover{
+    box-shadow: 0 5px 5px 0 rgba(77, 71, 71, 0.24), 0 10px 10px 0 rgba(0,0,0,0.19);
+    opacity: 1;
+}
+
+.botonJugador:hover{
+    box-shadow: 0 5px 5px 0 rgba(77, 71, 71, 0.24), 0 10px 10px 0 rgba(0,0,0,0.19);
+    opacity: 1;
+}
+.rojo{
+    background-color: red;
+    color: white;
+}
+
+.amarillo{
+    background-color: yellow;
+    color: black;
+}
+
+.verde{
+    background-color: green;
+    color: white;
+}
+
+.etiqueta{
+    border-style: solid;
+    border-color: yellow;
+    border-radius: 10px;
+    color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.sinBorde{
+    color: darkred;
+    margin-left: 20px;
+    margin-right: 10px;
+    border-style: none;
+    text-align: right;
+    padding: 3px 0px 5px 0px;
+}
+
+.jugador{
+    padding: 3px 10px 5px 10px;
+}
+
+.puntos{
+    margin-right: 10px;
+    padding: 3px 10px 5px 10px;
+}

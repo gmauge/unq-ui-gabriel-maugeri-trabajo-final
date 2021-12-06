@@ -1,0 +1,26 @@
+.tablero {
+    display: grid;
+    grid-gap: 10px;
+    max-width: 650px;
+    margin: 0px auto;
+    background-color: yellowgreen;
+    padding-top: 10px;
+}
+
+.contenedorTablero{
+    background-color: yellowgreen;
+    height: 100vh;
+}
+
+.d4x4{
+    grid-template-columns: repeat(4, 1fr);    
+}
+
+.d5x4{
+    grid-template-columns: repeat(5, 1fr);
+    max-width: 800px;    
+}
+
+.d6x6{
+    grid-template-columns: repeat(6, 1fr);    
+}
