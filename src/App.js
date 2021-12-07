@@ -3,13 +3,15 @@ import Tablero from './components/Tablero';
 import PanelSuperior from './components/PanelSuperior';
 import Ganador from './components/Ganador';
 
-
 const lista4x4 = [...'💣💥🎱🦊🦄🐘🐳🍎'];
 const lista5x4 = [...'💥🦊🦄🐳🍎🥐🌺🙏😃🌵'];
 const lista6x6 = [...'💣💥🎱🦊🦄🐘🐳🍎🥐🌺👈🙏🦴👀🧤🙉😃🌵'];
 const listas = [lista4x4, lista5x4, lista6x6];
 
+
+
 const App = () => {
+  document.title = "UNQ UIs - Memotest";
   const reiniciar = () => {
     window.location.reload();
   };
